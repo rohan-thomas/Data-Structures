@@ -2,12 +2,6 @@
 ## Created July 16th 2017
 ## Credits: https://www.codefellows.org/blog/implementing-a-singly-linked-list-in-python/
 
-####### Initializing the Node #########################
-#each node has data and a pointer to the next node
-#1 - An empty list has a NULL node (basically nothing in it - empty)
-#2 - we can get the data of the node
-#3 - we can get what the node points to
-#4 - we can reset what the node points to
 
 class Node(object):
     def __init__(self,data=None,next_node=None):
